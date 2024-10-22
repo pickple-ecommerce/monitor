@@ -9,7 +9,7 @@ scrape_configs:
     scheme: 'http'
 
     static_configs:
-      - targets: ['host.docker.internal:19090']
+      - targets: ['172.31.87.98:19090']
         labels:
           service: 'server'
 
@@ -18,7 +18,7 @@ scrape_configs:
     scheme: 'http'
 
     static_configs:
-      - targets: ['host.docker.internal:19091']
+      - targets: ['172.31.87.98:19091']
         labels:
           service: 'gateway'
 
@@ -27,7 +27,7 @@ scrape_configs:
     scheme: 'http'
 
     static_configs:
-      - targets: ['host.docker.internal:19092']
+      - targets: ['172.31.89.4:19092']
         labels:
           service: 'auth'
 
@@ -36,7 +36,7 @@ scrape_configs:
     scheme: 'http'
 
     static_configs:
-      - targets: ['host.docker.internal:19093']
+      - targets: ['172.31.89.4:19093']
         labels:
           service: 'user'
 
@@ -45,7 +45,7 @@ scrape_configs:
     scheme: 'http'
 
     static_configs:
-      - targets: ['host.docker.internal:19094']
+      - targets: ['172.31.94.162:19094']
         labels:
           service: 'commerce'
 
@@ -54,7 +54,7 @@ scrape_configs:
     scheme: 'http'
 
     static_configs:
-      - targets: ['host.docker.internal:19095']
+      - targets: ['172.31.94.162:19095']
         labels:
           service: 'payment'
 
@@ -63,7 +63,7 @@ scrape_configs:
     scheme: 'http'
 
     static_configs:
-      - targets: ['host.docker.internal:19096']
+      - targets: ['172.31.83.125:19096']
         labels:
           service: 'delivery'
 
@@ -72,6 +72,6 @@ scrape_configs:
     scheme: 'http'
 
     static_configs:
-      - targets: ['host.docker.internal:19097']
+      - targets: ['172.31.83.125:19097']
         labels:
           service: 'notification'
