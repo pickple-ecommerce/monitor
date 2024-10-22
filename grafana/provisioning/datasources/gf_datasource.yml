@@ -27,7 +27,7 @@ datasources:
   - name: Loki
     type: loki
     access: proxy
-    url: http://host.docker.internal:3100
+    url: http://172.31.88.200:3100
     jsonData:
       timeout: 60
       maxLines: 1000
